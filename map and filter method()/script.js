@@ -32,3 +32,17 @@ function fillNestedDropDown() {
     }
     console.log(nestedKeys);
 }
+
+const arr = ["z", "s", "a", "abc"];
+arr.map(function(e, i){
+console.log(e);
+})
+
+let a = [{category : 'A'}];
+let b = a.filter(function(x, i){
+if(x.category == "A") {
+console.log(b);
+    x.in = i;
+    return x;
+}
+});
